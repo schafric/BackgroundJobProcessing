@@ -11,4 +11,19 @@
     <PackageReference Include="HotChocolate.AspNetCore" Version="12.7.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="appsettings.Development.json" />
+    <Content Include="appsettings.json" />
+    <Content Include="Folder.DotSettings.user" />
+    <Content Include="Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Author.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="Mutation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Query.cs" />
+    <Compile Include="Repository.cs" />
+  </ItemGroup>
 </Project>
